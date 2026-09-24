@@ -38,33 +38,5 @@
     "consumo_kwh": 110.5,
     "mes_referencia": "2026-09",
     "status": "Normal"
-  },
-  {
-    "id": 7,
-    "local": "Sala 01",
-    "equipamento": "Computador",
-    "consumo_kwh": 110.5,
-    "mes_referencia": "2026-09",
-    "status": "Normal"
-  },
-  {
-    "id": 8,
-    "local": "Sala 01",
-    "equipamento": "Computador",
-    "consumo_kwh": 110.5,
-    "mes_referencia": "2026-09",
-    "status": "Normal"
-  },
-  {
-    "id": 9,
-    "local": "Sala 01",
-    "equipamento": "Computador",
-    "consumo_kwh": 110.5,
-    "mes_referencia": "2026-09",
-    "status": "Normal"
-  },
-  {
-    "id": 10,
-    "consumo_kwh": null
   }
 ]
