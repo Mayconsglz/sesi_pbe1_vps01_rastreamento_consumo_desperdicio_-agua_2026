@@ -1,7 +1,7 @@
 # Rastreamento de Consumo e Desperdício de Energia - SESI
 
 ## Descrição do Projeto
-Este projeto é um sistema back-end e front-end desenvolvido para o **SESI** com o objetivo de registrar equipamentos e locais, acompanhando o consumo energético em kWh e identificando possíveis desperdícios.
+Este projeto é um sistema back-end e front-end desenvolvido para o **SESI** com o objetivo de registrar equipamentos e locais, acompanhando o consumo em kWh e identificando possíveis desperdícios.
 
 ---
 
