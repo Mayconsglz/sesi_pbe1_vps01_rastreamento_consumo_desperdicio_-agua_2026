@@ -1,0 +1,26 @@
+{
+  "name": "sesi_pbe1_vps01_rastreamento_consumo_desperdicio_-agua_2026",
+  "version": "1.0.0",
+  "description": "Reastreamento de consumo e desperdicio de agua no SESI",
+  "main": "servidor/server.js",
+  "scripts": {
+    "dev": "node --watch servidor/server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayconsglz/sesi_pbe1_vps01_rastreamento_consumo_desperdicio_-agua_2026.git"
+  },
+  "keywords": [],
+  "author": "Mayconsglz",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mayconsglz/sesi_pbe1_vps01_rastreamento_consumo_desperdicio_-agua_2026/issues"
+  },
+  "homepage": "https://github.com/Mayconsglz/sesi_pbe1_vps01_rastreamento_consumo_desperdicio_-agua_2026#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

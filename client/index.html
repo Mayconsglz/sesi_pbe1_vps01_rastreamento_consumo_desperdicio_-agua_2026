@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro SESI</title>
+</head>
+<body>
+    <div class="box">
+        <h2>Cadastro SESI</h2>
+        <form id="meuFormulario">
+            <p>Localização do objeto:</p><input type="text" id="local" placeholder="Local" required><br>
+            <p>Tipo do objeto:</p><input type="text" id="equipamento" placeholder="Equipamento" required><br>
+            <p>Quantidade de consumo:</p><input type="number" step="0.1" id="consumo" placeholder="Consumo (kWh)" required><br>
+            <p>Data e mes de referencia:</p><input type="text" id="mes" placeholder="ano e mês" required><br>
+            <p>tipo de consumo:</p><select id="status">
+                <option value="Normal">Normal</option>
+                <option value="Consumo elevado">Consumo elevado</option>
+            </select><br><br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script>
+        const formulario = document.getElementById('meuFormulario');
+
+        formulario.addEventListener('submit', function(evento) {
+            evento.preventDefault();
+
+            const dadosDoFormulario = {
+                local: document.getElementById('local').value,
+                equipamento: document.getElementById('equipamento').value,
+                consumo_kwh: document.getElementById('consumo').value,
+                mes_referencia: document.getElementById('mes').value,
+                status: document.getElementById('status').value
+            };
+
+            fetch('http://localhost:3000/equipamentos', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(dadosDoFormulario)
+            })
+            .then(function(resposta) {
+                return resposta.json();
+            })
+            .then(function(resultado) {
+                document.getElementById('mensagemRetorno').innerText = resultado.mensagem;
+                formulario.reset();
+            })
+            .catch(function(erro) {
+                document.getElementById('mensagemRetorno').innerText = "Deu erro na conexão!";
+            });
+        });
+    </script>
+</body>
+</html>
