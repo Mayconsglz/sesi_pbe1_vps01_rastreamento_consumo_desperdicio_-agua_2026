@@ -1,42 +1,70 @@
 [
-    {
-        "id": 1,
-        "local": "Laboratório 02",
-        "equipamento": "Ar-condicionado",
-        "consumo_kwh": 116.5,
-        "mes_referencia": "2026-08",
-        "status": "Normal"
-    },
-    {
-        "id": 2,
-        "local": "Sala de Informática",
-        "equipamento": "Computadores",
-        "consumo_kwh": 341.0,
-        "mes_referencia": "2026-09",
-        "status": "Normal"
-    },
-    {
-        "id": 3,
-        "local": "Biblioteca",
-        "equipamento": "Iluminação LED",
-        "consumo_kwh": 59.2,
-        "mes_referencia": "2026-07",
-        "status": "Consumo elevado"
-    },
-    {
-        "id": 4,
-        "local": "Sala de aula 12",
-        "equipamento": "Projetor",
-        "consumo_kwh": 222.8,
-        "mes_referencia": "2026-07",
-        "status": "Consumo elevado"
-    },
-    {
-        "id": 5,
-        "local": "Sala da Andreia",
-        "equipamento": "Ar-condicionado",
-        "consumo_kwh": 110.0,
-        "mes_referencia": "2026-09",
-        "status": "Normal"
-    }
+  {
+    "id": 2,
+    "local": "Sala de Informática",
+    "equipamento": "Computadores",
+    "consumo_kwh": 341,
+    "mes_referencia": "2026-09",
+    "status": "Normal"
+  },
+  {
+    "id": 3,
+    "local": "Biblioteca",
+    "equipamento": "Iluminação LED",
+    "consumo_kwh": 59.2,
+    "mes_referencia": "2026-07",
+    "status": "Consumo elevado"
+  },
+  {
+    "id": 4,
+    "local": "Sala de aula 12",
+    "equipamento": "Projetor",
+    "consumo_kwh": 222.8,
+    "mes_referencia": "2026-07",
+    "status": "Consumo elevado"
+  },
+  {
+    "id": 5,
+    "local": "Sala da Andreia",
+    "equipamento": "Ar-condicionado",
+    "consumo_kwh": 110,
+    "mes_referencia": "2026-09",
+    "status": "Normal"
+  },
+  {
+    "id": 6,
+    "local": "Sala 01",
+    "equipamento": "Computador",
+    "consumo_kwh": 110.5,
+    "mes_referencia": "2026-09",
+    "status": "Normal"
+  },
+  {
+    "id": 7,
+    "local": "Sala 01",
+    "equipamento": "Computador",
+    "consumo_kwh": 110.5,
+    "mes_referencia": "2026-09",
+    "status": "Normal"
+  },
+  {
+    "id": 8,
+    "local": "Sala 01",
+    "equipamento": "Computador",
+    "consumo_kwh": 110.5,
+    "mes_referencia": "2026-09",
+    "status": "Normal"
+  },
+  {
+    "id": 9,
+    "local": "Sala 01",
+    "equipamento": "Computador",
+    "consumo_kwh": 110.5,
+    "mes_referencia": "2026-09",
+    "status": "Normal"
+  },
+  {
+    "id": 10,
+    "consumo_kwh": null
+  }
 ]
