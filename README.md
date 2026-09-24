@@ -9,8 +9,8 @@ Este projeto é um sistema back-end e front-end desenvolvido para o **SESI** com
 - **Node.js**
 - **Express**
 - **CORS**
-- **JavaScript (ES6)**
-- **HTML5**
+- **JavaScript**
+- **HTML**
 
 ---
 
